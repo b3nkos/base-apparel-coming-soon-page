@@ -1,0 +1,49 @@
+:root {
+  --primary-color: hsl(0, 36%, 70%);
+  --secondary-color: hsl(0, 93%, 68%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  padding: 1.5em 0;
+  align-items: flex-start;
+}
+
+.logo {
+  margin-left: 2em;
+}
+
+.hero {
+  background: top/contain no-repeat url("./hero-mobile.jpg");
+  height: 250px;
+}
+
+.content {
+  text-transform: uppercase;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(to top, hsl(0, 100%, 98%), hsl(0, 0%, 100%));
+  overflow: hidden;
+}
+
+.title {
+  font-size: 45px;
+  letter-spacing: .3em;
+  line-height: 5px;
+}
+
+.title_primary {
+  font-weight: 100;
+  color: var(--primary-color);
+}
+
+.title_secondary {
+  font-weight: bold;
+}
